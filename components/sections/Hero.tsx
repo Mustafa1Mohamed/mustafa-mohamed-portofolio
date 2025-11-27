@@ -14,7 +14,7 @@ export default function Hero() {
       id="home"
       className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20"
     >
-      <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-transparent to-blue-500/10" />
+      <div className="absolute inset-0 bg-linear-to-br from-cyan-500/10 via-transparent to-blue-500/10" />
 
       <motion.div style={{ opacity, scale }} className="text-center z-10 px-6">
         <motion.h1
@@ -24,7 +24,7 @@ export default function Hero() {
           className="text-5xl md:text-7xl font-bold mb-6"
         >
           Hi, I am{" "}
-          <span className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+          <span className="bg-linear-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
             Mustafa Mohamed
           </span>
         </motion.h1>
@@ -46,7 +46,7 @@ export default function Hero() {
         >
           <motion.a
             href="#contact"
-            className="px-8 py-3 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg font-semibold"
+            className="px-8 py-3 bg-linear-to-r from-cyan-500 to-blue-500 rounded-lg font-semibold"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
@@ -71,7 +71,13 @@ export default function Hero() {
           {[Github, Linkedin, Mail].map((Icon, i) => (
             <motion.a
               key={i}
-              href="#"
+              href={
+                Icon === Github
+                  ? "https://github.com/Mustafa1Mohamed/"
+                  : Icon === Linkedin
+                  ? "https://www.linkedin.com/in/mustafa-mohamed22/"
+                  : "mailto:mustafamahany459@gmail.com"
+              }
               className="text-slate-400 hover:text-cyan-400 transition-colors"
               whileHover={{ y: -4 }}
             >

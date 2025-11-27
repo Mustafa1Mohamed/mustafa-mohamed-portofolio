@@ -9,20 +9,20 @@ export default function Contact() {
     {
       icon: Mail,
       label: "Email",
-      value: "your.email@example.com",
-      link: "mailto:your.email@example.com",
+      value: "mustafamahany459@gmail.com",
+      link: "mailto:mustafamahany459@gmail.com",
     },
     {
       icon: Github,
       label: "GitHub",
-      value: "github.com/yourusername",
+      value: "https://github.com/Mustafa1Mohamed/",
       link: "https://github.com",
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
       value: "linkedin.com/in/you",
-      link: "https://linkedin.com",
+      link: "https://www.linkedin.com/in/mustafa-mohamed22/",
     },
   ];
 
@@ -36,15 +36,15 @@ export default function Contact() {
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">
             Get In{" "}
-            <span className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
               Touch
             </span>
           </h2>
 
           <div className="bg-slate-800/50 rounded-2xl p-8 border border-slate-700">
             <p className="text-center text-slate-300 text-lg mb-8">
-              I am always open to new opportunities and collaborations. Feel free
-              to reach out!
+              I am always open to new opportunities and collaborations. Feel
+              free to reach out!
             </p>
 
             <div className="grid md:grid-cols-3 gap-6">
