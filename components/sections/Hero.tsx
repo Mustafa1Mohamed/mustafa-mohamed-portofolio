@@ -35,7 +35,7 @@ export default function Hero() {
           transition={{ delay: 0.4 }}
           className="text-xl md:text-2xl text-slate-400 mb-8"
         >
-          Full Stack Developer & Creative Problem Solver
+          Frontend & Mobile Developer
         </motion.p>
 
         <motion.div

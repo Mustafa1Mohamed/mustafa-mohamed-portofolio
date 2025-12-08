@@ -29,7 +29,7 @@ export default function About() {
               viewport={{ once: true }}
               transition={{ delay: 0.2 }}
             >
-              <div className="w-full h-96 bg-gradient-to-br from-cyan-500/20 to-blue-500/20 rounded-2xl flex items-center justify-center text-6xl">
+              <div className="w-full h-130 bg-linear-to-br from-cyan-500/20 to-blue-500/20 rounded-2xl flex items-center justify-center text-6xl">
                 👨‍💻
               </div>
             </motion.div>
@@ -42,14 +42,18 @@ export default function About() {
               className="space-y-6"
             >
               <p className="text-slate-300 text-lg leading-relaxed">
-                I am a passionate full-stack developer with a love for creating
-                beautiful, functional web applications. With expertise in modern
-                frameworks and a keen eye for design, I bring ideas to life
-                through code.
+                I’m a passionate Frontend and cross-platform developer with a
+                strong focus on building clean, intuitive, and user-centered
+                applications. With hands-on experience in React, React Native,
+                and Flutter—and a growing foundation in TypeScript and modern
+                web technologies—I enjoy turning ideas into smooth, responsive
+                experiences across both web and mobile platforms.
               </p>
               <p className="text-slate-300 text-lg leading-relaxed">
-                When I am not coding, you can find me exploring new technologies,
-                contributing to open-source projects, or sharing knowledge with
+                I’m always exploring new tools, refining my development
+                practices, and staying curious about how great interfaces are
+                built. Outside of coding, I love diving into new technologies,
+                contributing to open-source projects, and sharing knowledge with
                 the developer community.
               </p>
 
