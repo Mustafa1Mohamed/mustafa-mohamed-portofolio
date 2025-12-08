@@ -4,7 +4,10 @@ export const skills = [
   "TypeScript",
   "Node.js",
   "Tailwind CSS",
-  "MongoDB",
-  "PostgreSQL",
-  "AWS"
+  "Flutter",
+  "Dart",
+  "React Native",
+  "JavaScript",
+  "HTML",
+  "CSS",
 ];
