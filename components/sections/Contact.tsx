@@ -16,12 +16,12 @@ export default function Contact() {
       icon: Github,
       label: "GitHub",
       value: "https://github.com/Mustafa1Mohamed/",
-      link: "https://github.com",
+      link: "https://github.com/Mustafa1Mohamed/",
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      value: "linkedin.com/in/you",
+      value: "https://www.linkedin.com/in/mustafa-mohamed22/",
       link: "https://www.linkedin.com/in/mustafa-mohamed22/",
     },
   ];
