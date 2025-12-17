@@ -24,5 +24,11 @@ export const projects: Project[] = [
     description: "A movie website built with React and Bootstrap. It allows users to browse and search for movies, as well as view detailed information about each movie and add them to their watchlist and can view the movie on MDB.",
     tech: ["React", "Bootstrap", "MDB API","Redux"],
     link: "https://movie-blob.netlify.app/",
+  },
+  {
+    title: "Courses App",
+    description: "An e-learning app for online courses and educational resources.",
+    tech: ["React Native", "Redux Toolkit","ReactPaper","paypal API","Gemini API"],
+    link: "https://www.linkedin.com/feed/update/urn:li:activity:7383533635431473152/",
   }
 ];
