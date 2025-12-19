@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/NavBar";
 import AnimatedBackground from "@/components/layout/AnimatedBackground";
+import Snowfall from "react-snowfall";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,10 +27,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <AnimatedBackground />
+        {/* <Snowfall color="" /> */}
+        {/* <AnimatedBackground /> */}
         <Navbar />
 
         {children}

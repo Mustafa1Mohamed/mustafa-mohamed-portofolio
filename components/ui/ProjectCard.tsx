@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import { ExternalLink } from "lucide-react";
 import Link from "next/link";
+import Snowfall from "react-snowfall";
 
 export interface Project {
   title: string;
@@ -20,6 +21,7 @@ export default function ProjectCard({
 }) {
   return (
     <Link href={project.link} target="_blank">
+      <Snowfall color="cyan" />
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
