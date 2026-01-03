@@ -15,7 +15,6 @@ export default function Navbar() {
       animate={{ y: 0 }}
       className="fixed top-0 w-full bg-slate-950/80 backdrop-blur-lg z-50 border-b border-slate-800"
     >
-      <Snowfall color="cyan" />
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         <h2 className="text-2xl font-bold bg-linear-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
           Mustafa Mohamed
