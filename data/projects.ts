@@ -30,5 +30,11 @@ export const projects: Project[] = [
     description: "An e-learning app for online courses and educational resources.",
     tech: ["React Native", "Redux Toolkit","ReactPaper","paypal API","Gemini API"],
     link: "https://www.linkedin.com/feed/update/urn:li:activity:7383533635431473152/",
+  },
+  {
+    title: "Avante dental solutions",
+    description: "A dental website for Avante dental solutions. Includes features such as user authentication, product management, and Dashboard for admins.",
+    tech: ["Next.js", "Tailwind", "Typescript", "API","Tanstack Query","Node.js","Express","Prisma","PostgreSQL","JWT"],
+    link: "https://www.avantedentalsolutions.cloud",
   }
 ];

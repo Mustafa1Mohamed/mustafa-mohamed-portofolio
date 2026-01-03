@@ -15,7 +15,6 @@ export default function ProjectsSection() {
           viewport={{ once: true }}
           className="text-4xl md:text-5xl font-bold mb-12 text-center"
         >
-          Featured{" "}
           <span className="bg-linear-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
             Projects
           </span>
