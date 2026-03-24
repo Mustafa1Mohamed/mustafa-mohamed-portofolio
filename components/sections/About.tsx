@@ -29,8 +29,12 @@ export default function About() {
               viewport={{ once: true }}
               transition={{ delay: 0.2 }}
             >
-              <div className="w-full h-130 bg-linear-to-br from-cyan-500/20 to-blue-500/20 rounded-2xl flex items-center justify-center text-6xl">
-                👨‍💻
+              <div className="w-full h-130 bg-linear-to-br from-cyan-500/20 to-blue-500/20 rounded-2xl flex items-center justify-center overflow-hidden">
+                <img
+                  src="/black-background.png"
+                  alt="Mustafa Mohamed"
+                  className="h-full w-full object-cover"
+                />
               </div>
             </motion.div>
 
