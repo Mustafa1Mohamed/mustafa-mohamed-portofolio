@@ -4,7 +4,6 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
-import Snowfall from "react-snowfall";
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const menuItems = ["Home", "About", "Projects", "Contact"];
@@ -21,7 +20,7 @@ export default function Navbar() {
         </h2>
 
         {/* Desktop */}
-        <div className="hidden md:flex gap-8">
+        <div className="hidden md:flex items-center gap-6">
           {menuItems.map((item) => (
             <Link
               key={item}
@@ -31,6 +30,15 @@ export default function Navbar() {
               {item}
             </Link>
           ))}
+
+          <Link
+            href="/Mustafa_Mohamed_Sayed_CV.pdf"
+            className="rounded bg-cyan-500 px-4 py-2 text-sm font-semibold text-white hover:bg-cyan-400 transition-colors"
+            aria-label="Download CV"
+            download
+          >
+            Download CV
+          </Link>
         </div>
 
         {/* Mobile */}
@@ -58,6 +66,16 @@ export default function Navbar() {
               {item}
             </a>
           ))}
+
+          <a
+            href="/cv.pdf"
+            onClick={() => setIsMenuOpen(false)}
+            className="block px-6 py-3 mt-1 rounded bg-cyan-500 text-center text-white hover:bg-cyan-400"
+            aria-label="Download CV"
+            download
+          >
+            Download CV
+          </a>
         </motion.div>
       )}
     </motion.nav>
